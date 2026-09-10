@@ -4,7 +4,7 @@
 First I checked the `puzzle.gds` file using KLayout 0.30.12 and I noticed several things:
 - opening the Dysplay/Cells tab all instances had very specific names, such as `sky130_fd_sc_hd__dfrtp_2`, `sky130_fd_sc_hd__nand2_2`, etc...
 - all input and output pin lable were present
-- checking the layers, the ones that count are li1 (67/20), met1 (68/20), met2 (69/20), met3 (70/20), met4 (71/20), met5 (72/20), and the cuts of via mcon (67/44), via (68/44), via2 (69/44), via3 (70/44), via4 (71/44)
+- checking the layers, the ones that count are li1 (67/20), met1 (68/20), met2 (69/20), met3 (70/20), met4 (71/20), met5 (72/20) and the cuts of via mcon (67/44), via (68/44), via2 (69/44), via3 (70/44), via4 (71/44)
 
 This made me realize that the right path was to extract the netlist and not look for a pattern in the geometry.
 
