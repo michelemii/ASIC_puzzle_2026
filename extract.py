@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import gdstk
 import math
 import sys
